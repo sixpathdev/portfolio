@@ -13,6 +13,7 @@ const Contact = () => {
 
   const handleContactUs = async (e) => {
     e.preventDefault();
+    return;
     try {
       const name = fullnameRef?.current?.value;
       const email = emailRef?.current?.value;
