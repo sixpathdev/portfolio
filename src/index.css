@@ -1,3 +1,46 @@
+@font-face {
+  font-family: "gregular";
+  src: url("../src/assets/fonts/georama/Georama-Regular.ttf") format(truetype);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "glight";
+  src: url("../src/assets/fonts/georama/Georama-Light.ttf") format(truetype);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "gbold";
+  src: url("../src/assets/fonts/georama/Georama-Bold.ttf") format(truetype);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "gmedium";
+  src: url("../src/assets/fonts/georama/Georama-Medium.ttf") format(truetype);
+  font-weight: medium;
+}
+
 @import "tailwindcss";
 
+body {
+  background: #f3f5f4;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: "gregular";
+}
 
+.glight {
+  font-family: "glight";
+}
+.gregular {
+  font-family: "gregular";
+}
+.gmedium {
+  font-family: "gmedium";
+}
+.gbold {
+  font-family: "gbold";
+}
