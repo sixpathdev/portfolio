@@ -27,7 +27,7 @@ const Navbar = () => {
       url: "/#contact",
     },
     {
-      id: 4,
+      id: 5,
       label: "White Paper",
       url: "/white-paper.pdf",
     },

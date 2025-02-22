@@ -140,13 +140,21 @@ const Contact = () => {
           <p className="text-center text-[14px] text-[#464646] gregular mb-4">
             Or Reach Us At
           </p>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-5 lg:gap-12 mb-[24px]">
+          <div className="flex flex-col md:flex-row items-start justify-center gap-5 lg:gap-12 mb-[24px]">
             <p className="underline text-[16px] gmedium text-[#464646]">
-              support@highire.com
+              highire.inc@outlook.com
             </p>
+            <div className="flex flex-col lg:flex-row items-center gap-1">
             <p className="underline text-[16px] gmedium text-[#464646]">
-              +123-456-7890
+              <a href="tel:+2349164672980">+2349164672980</a>
+            </p>,
+            <p className="underline text-[16px] gmedium text-[#464646]">
+              <a href="tel:+2349124601315">+2349124601315</a>
+            </p>,
+            <p className="underline text-[16px] gmedium text-[#464646]">
+              <a href="tel:+2347035371338">+2347035371338</a>
             </p>
+            </div>
           </div>
           <button
             type="submit"

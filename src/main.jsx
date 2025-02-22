@@ -4,10 +4,13 @@ import "./index.css";
 import App from "./App.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { BrowserRouter as Router, Routes } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <Router>
+      <App />
+    </Router>
     <ToastContainer
       position="top-right"
       autoClose={5000}

@@ -12,11 +12,11 @@ const Footer = () => {
           />
           <div className="flex flex-col ml-4">
             <p className="text-[#464646] gmedium text-[14px] lg:text-[20px]">
-              © 2024 Highire. All Rights Reserved.
+              © 2025 Highire. All Rights Reserved.
             </p>
             <div className="flex flex-row">
               <a
-                href="#"
+                href="/privacy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#464646] underline text-[16px]"
@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="flex flex-col">
           <p className="text-[#464646] gmedium text-[20px]">Follow Us:</p>
           <div className="flex flex-row">
-            <a
+            {/* <a
               href="#"
               target="_blank"
               rel="noopener noreferrer"
@@ -37,9 +37,9 @@ const Footer = () => {
             >
               Facebook
             </a>
-            |
+            | */}
             <a
-              href="#"
+              href="https://x.com/highireglobal"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#464646] mx-2 underline text-[16px]"
@@ -48,7 +48,7 @@ const Footer = () => {
             </a>
             |
             <a
-              href="#"
+              href="https://instagram.com/highire_global"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#464646] underline ml-2 text-[16px]"
