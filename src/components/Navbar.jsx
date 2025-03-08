@@ -24,7 +24,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full fixed top-0 z-[50] py-10 h-[62px] bg-[#00050B] lg:min-h-[62px] px-[4%]">
+    <nav className="w-full fixed top-0 z-[50] py-12 h-[62px] bg-[#00050B] lg:min-h-[62px] px-[4%]">
       <div className={`flex h-full items-center justify-between`}>
         <a href="/">
           <img
@@ -35,7 +35,7 @@ const Navbar = () => {
         </a>
         <div
           onClick={() => setIsOpen(!isOpen)}
-          className="absolute cursor-pointer transition-all lg:hidden duration-500 top-5 right-4"
+          className="absolute cursor-pointer transition-all lg:hidden duration-500 top-8 right-4"
         >
           {isOpen ? (
             <CloseOutlined
@@ -48,7 +48,7 @@ const Navbar = () => {
           )}
         </div>
         <ul
-          className={`lg:flex lg:h-[60px] justify-end absolute lg:static lg:z-auto z-[-1] left-0 w-full pl-8 lg:pl-0 space-y-[15px] lg:space-y-0 py-5 lg:py-0 lg:space-x-[29px] transition-all duration-500 ease-in ${
+          className={`lg:flex lg:h-[60px] bg-[#00050B] justify-end absolute lg:static lg:z-auto z-[-1] left-0 w-full pl-8 lg:pl-0 space-y-[15px] lg:space-y-0 py-5 lg:py-0 lg:space-x-[29px] transition-all duration-500 ease-in ${
             isOpen ? "top-16" : "top-[-350px]"
           }`}
         >
