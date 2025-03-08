@@ -1,46 +1,53 @@
 @font-face {
-  font-family: "gregular";
-  src: url("../src/assets/fonts/georama/Georama-Regular.ttf") format(truetype);
+  font-family: "aregular";
+  src: url("../src/assets/fonts/aeonik/AeonikTRIAL-Regular.otf");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "glight";
-  src: url("../src/assets/fonts/georama/Georama-Light.ttf") format(truetype);
+  font-family: "alight";
+  src: url("../src/assets/fonts/aeonik/AeonikTRIAL-Light.otf");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "gbold";
-  src: url("../src/assets/fonts/georama/Georama-Bold.ttf") format(truetype);
+  font-family: "abold";
+  src: url("../src/assets/fonts/aeonik/AeonikTRIAL-Bold.otf");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "gmedium";
-  src: url("../src/assets/fonts/georama/Georama-Medium.ttf") format(truetype);
+  font-family: "amedium";
+  src: url("../src/assets/fonts/aeonik/AeonikTRIAL-Regular.otf");
   font-weight: medium;
 }
 
 @import "tailwindcss";
 
 body {
-  background: #f3f5f4;
+  background: #00050B;
+  color: #E5F2FF;
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  font-family: "gregular";
+  font-family: "aregular";
 }
 
-.glight {
-  font-family: "glight";
+.alight {
+  font-family: "alight";
 }
-.gregular {
-  font-family: "gregular";
+.aregular {
+  font-family: "aregular";
 }
-.gmedium {
-  font-family: "gmedium";
+.amedium {
+  font-family: "amedium";
 }
-.gbold {
-  font-family: "gbold";
+.abold {
+  font-family: "abold";
+}
+
+.bg_image_1 {
+  background: url('/images/oval.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

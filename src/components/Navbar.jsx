@@ -8,38 +8,28 @@ const Navbar = () => {
   const navMenu = [
     {
       id: 1,
-      label: "Home",
-      url: "/",
+      label: "About",
+      url: "#about",
     },
     {
       id: 2,
-      label: "About Us",
-      url: "/#about",
+      label: "What I Do",
+      url: "/#whatido",
     },
     {
       id: 3,
-      label: "Features",
-      url: "/#features",
-    },
-    {
-      id: 4,
-      label: "Contact Us",
-      url: "/#contact",
-    },
-    {
-      id: 5,
-      label: "White Paper",
-      url: "/white-paper.pdf",
-    },
+      label: "Projects",
+      url: "/#projects",
+    }
   ];
 
   return (
-    <nav className="w-full fixed top-0 z-[50] h-[70px] lg:min-h-[92px] bg-[#ffffff] px-[4%] shadow-sm shadow-[#0000001A]">
-      <div className={`md:flex h-full items-center darkbg justify-between`}>
+    <nav className="w-full fixed top-0 z-[50] py-10 h-[62px] bg-[#00050B] lg:min-h-[62px] px-[4%]">
+      <div className={`flex h-full items-center justify-between`}>
         <a href="/">
           <img
-            src="/images/logo.svg"
-            className="w-[50px] h-[50px] relative top-2 lg:top-0"
+            src="/images/logo.png"
+            className="w-[189] h-[39px] relative top-2 lg:top-0"
             alt="logo"
           />
         </a>
@@ -58,14 +48,14 @@ const Navbar = () => {
           )}
         </div>
         <ul
-          className={`lg:flex lg:px-12 bg-[#fff] lg:h-[60px] lg:justify-between lg:rounded-[100px] lg:items-center absolute lg:static darkbg lg:z-auto z-[-1] left-0 w-full lg:w-[680px] pl-8 lg:pl-0 space-y-[15px] lg:space-y-0 py-5 lg:py-0 lg:space-x-[29px] transition-all duration-500 ease-in ${
+          className={`lg:flex lg:h-[60px] justify-end absolute lg:static lg:z-auto z-[-1] left-0 w-full pl-8 lg:pl-0 space-y-[15px] lg:space-y-0 py-5 lg:py-0 lg:space-x-[29px] transition-all duration-500 ease-in ${
             isOpen ? "top-16" : "top-[-350px]"
           }`}
         >
           {navMenu?.map((navm) => (
             <li
               key={navm?.id}
-              className={`text-[#040404] p-1 gregular text-[16px]`}
+              className={`text-[#E5F2FF] p-1 gregular text-[16px]`}
             >
               <a href={navm?.url} target={navm?.url == '/white-paper.pdf' ? '_blank':''}>{navm?.label}</a>
             </li>
